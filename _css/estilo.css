@@ -1,0 +1,60 @@
+* {
+	/*background-color: #FFFFF0;*/
+	font: normal 1.2rem Arial;
+}
+
+html{
+	font-size: 1rem;
+}
+
+header{
+	color: #6495ED;
+	text-align: center;
+}
+
+section {
+	background-color: #FFFFF0;
+	border-radius: 7px;
+	padding: 20px;
+	width: 600px;
+	margin: auto;
+	box-shadow: 7px 7px 10px #000;
+}
+
+div{
+	padding: 10px;
+}
+
+
+footer {
+	color: #6495ED;
+	font-size: 1px;
+	text-align: center;
+	font-style: italic;
+}
+
+#imagem {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+@include media-breakpoint-up(sm) {
+	html {
+		font-size: 1.2rem;
+	}
+}
+
+@include media-breakpoint-up(md) {
+	html {
+		font-size: 1.4rem;
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	html {
+		font-size: 1.6rem;
+	}
+}
+
